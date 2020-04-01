@@ -2,6 +2,7 @@ dependencies:
   blueimp-md5: 2.13.0
   discord.js: 11.6.3
   dotenv: 8.2.0
+  lodash: 4.17.15
 packages:
   /async-limiter/1.0.1:
     dev: false
@@ -38,6 +39,10 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
+  /lodash/4.17.15:
+    dev: false
+    resolution:
+      integrity: sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
   /long/4.0.0:
     dev: false
     resolution:
@@ -68,3 +73,4 @@ specifiers:
   blueimp-md5: 2.13.0
   discord.js: ^11.5.1
   dotenv: ^8.2.0
+  lodash: 4.17.15
