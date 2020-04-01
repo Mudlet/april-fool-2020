@@ -39,7 +39,19 @@ bot.on('message', msg => {
   } else if(msg.content.startsWith('!export')){
     const codes = _.map(generatedCodes, obj => {
       return obj.code;
-    })
-    const 
+    }).join('\n')
+    const userTable = _.map(generatedCodes, (obj, index) => {
+      return `${index} ${obj.requests}`;
+    }).join('\n')
+    const textToExport = 'This is the data of the Mudlet Content Filter Code Bot:\n'+
+        'Codes:\n'+
+        '======\n'+
+        codes+
+        '\n'+
+        '\n'+
+        'Users:\n'+
+        '======\n'+
+        userTable
+    console.info(textToExport)
   }
 });
