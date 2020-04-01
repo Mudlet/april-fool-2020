@@ -13,6 +13,7 @@
     "discord.js": "^11.5.1",
     "dotenv": "^8.2.0",
     "blueimp-md5": "2.13.0",
-    "lodash": "4.17.15"
+    "lodash": "4.17.15",
+    "pastebin-js": "1.0.4"
   }
 }
