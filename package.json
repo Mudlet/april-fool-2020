@@ -1,14 +1,14 @@
 {
-  "name": "discord-bot",
+  "name": "mudlet-april-fool-2020",
   "version": "1.0.0",
-  "description": "Discord bot for SitePoint",
+  "description": "This bot was part of the April Fool 2020. It gave out codes to turn off the 'content filter' in the 4.7 release.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Michiel Mulders",
-  "license": "ISC",
+  "author": "keneanung",
+  "license": "MIT",
   "dependencies": {
     "discord.js": "^11.5.1",
     "dotenv": "^8.2.0",
